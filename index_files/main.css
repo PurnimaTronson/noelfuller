@@ -403,6 +403,7 @@ ol{
 }
 .carousel-control {
     background-image: none !important; /* remove background gradients on controls */
+	display: none;
 }
 /* Fade controls with items */
 .next.left,
@@ -539,6 +540,13 @@ span.line-4{
 	
 	
 	}
+	
+.news h2{
+	
+	font-family: 'Oswald', verdana, arial, sans-serif;
+	line-height: 1.25em;
+	
+	}	
 
 
 h1{
@@ -2266,12 +2274,12 @@ body{
 nav li{
 	
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.0125em;
+	font-size: 1em;
 	text-align: right;
 	font-weight: 300;
 	text-transform: uppercase;
 	margin: 0%;
-	padding: 0em .45em;
+	padding: 0em .50em;
 	
 	
 
@@ -2461,6 +2469,7 @@ ol{
 
 .news{
 	
+	
 	text-align: center;
 	background-image:url(../img/news-bg.jpg);
 	background-repeat: no-repeat;
@@ -2487,7 +2496,7 @@ h1{
 	}
 	
 .news h2{
-	font-family: 'Open Sans Condensed', verdana, arial sans-serif;
+	font-family: 'Oswald', verdana, arial sans-serif;
 	color: #ccc;
 	font-weight: 100;
 	margin-bottom: 2%;
@@ -2785,6 +2794,14 @@ div#social-footer{
 	padding-top: 0em;
 	
 	}	
+	
+	.npc-oregon-logo:hover{
+		
+		
+		
+		
+		
+		}
 			
 		
 .npc-logo img, .ifbb-logo img, .npc-oregon-logo img, .md-logo img{
