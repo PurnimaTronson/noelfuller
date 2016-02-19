@@ -32,71 +32,115 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
+        <header class="header-img">
         
-       <div class="logo"><img src="./index_files/NoelFuller-logo.png" alt="Noel Fuller Logo"> </div>
-       
-       <div class="address-top">(503) 775-6399 5623 SE Center St. Portland, OR 97206</div>
-       
-       <div id="social">
-	   <div class="social"><a href="https://www.facebook.com/noel.fuller"><img src="img/social-icon-fb.jpg" alt="Facebook"></a>"</div> 
-       <div class="social"><a href="https://twitter.com/noelfuller"><img src="img//social-icon-twitter.jpg" alt="Facebook"></a>"</div> 
-	   <div class="social"><a href="https://www.instagram.com/noelfullercontestprep/"><img src="img/social-icon-instagram.jpg" alt="Facebook"></a></div> 
+        <!--Hide Original Nave
+        <nav class="navbar-fixed-top">
+        <div id="logo"><a href=""><img src="img/NoelFuller-Logo.svg" alt="Noel Fuller Logo"></a></div>
+        <div id="social-align">
+        <div class="social"><a href=""><img src="img/social-icon-fb.jpg" alt="Facebook Logo" ></a></div>
+        <div class="social"><a href=""><img src="img/social-icon-twitter.jpg" alt="Facebook Logo" ></a></div>
+        <div class="social"><a href=""><img src="img/social-icon-instagram.jpg" alt="Facebook Logo" ></a></div>
+        </div>
+        
+        <div class="address-top"><h4>(503) 775-6399 5623</h4><h4> SE Center St, Portland, OR 97206</h4></div>
 
-       </div>
-        
-        <nav>
+
+
         <ul>
-        <li><a href="training.html">Training</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="html/testimonial.html">Testimonials</a></li>
-        <li><a href="champions.html">Champions</a></li>
-        <li><a href="html/news.html">News &amp; Events</a></li>
+  <li><a class="home" href="#">Home</a></li>
+  <li><a href="#">Training</a></li>
+  <li><a href="#">Champions</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">News &amp; Events</a></li>
+  <li><a class="button-mobile testimonials" href="#">Testimonials</a></li>
+  <li><a href="#">Training Schedule</a></li>
 
-        </ul>
+
+
+
+</ul>
         
         
+    
         
         
         
         </nav>
+       Hide Original Nav End-->
+       
+       
+       <nav class="navbar navbar-default navbar-fixed-top">
+       
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
         
-         <div class="r-nav">
+        <!--Hide Bar===============================
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
         
-        <div class="link-block"><a href="">Training</a></div>
-        <div class="link-block"><a href="">Schedule</a></div>
-        <div class="link-block"><a href="">Contact</a></div>
-        <div class="link-block"><a href="">Testimonials</a></div>
-        <div class="link-block"><a href="">Champions</a></div>
-        <div class="link-block"><a href="">News &amp; Events</a></div>
+        ===========================================-->
+        <p class="collapse-menu">Menu</p>
+      </button>
+      
+      <a class="navbar-brand"><img class="logo" src="img/NoelFuller-Logo.png" alt="Noel Fuller Logo"></a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="navbar-right">
+        <li class="active"><a href="#">Training <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Champions</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">News &amp; Events</a></li>
 
-        
-        
+         
+
+       
+      </ul>
+     
+      
+    </div><!-- /.navbar-collapse -->
+      <div class="address-top">(503) 775-6399  5623 SE Center St. Portland, OR 97206</div>
+      <div class="social">
+     
+        <a href="#"><img src="img/social-icon-fb.jpg" alt="facebook"/></a> 
+        <a href="#"><img src="img/social-icon-instagram.jpg" alt="instagram"/></a>
+        <a href="#"><img src="img/social-icon-twitter.jpg" alt="twitter"/></a>
         
         </div>
         
+     
+        
+ 
         
         
-        
+    </div>
+
+  </div><!-- /.container-fluid -->
+  
+</nav>
+       
         </header>
-        
-      
         
   <div id="carousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-   
-    <li data-target="#carousel" data-slide-to="0" class=""></li>
-    <li data-target="#carousel" data-slide-to="1" class=""></li>
-    <li data-target="#carousel" data-slide-to="2" class=""></li>
-    <li data-target="#carousel" dataslide-to="3" class="active"></li>
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+    <li data-target="#carousel" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item">
-      <img src="img/slider-1-1.jpg" class="slider-center" alt="Slider 1">
+    <div class="item active">
+      <img src="img/slider-1.jpg" class="slider-center" alt="Slider 1">
       <div class="carousel-caption">
         <div id="hero-copy">
             <p><span class="line-1">Yamilla Rodriguez</span></p>
@@ -104,9 +148,6 @@
             <p><span class="line-3">IFBB Pro</span></p>
             <p><span class="line-4">2015 NPC National Championships</span></p>
             
-            </div>
-            <div class="mobile-hero"><h2 class="mobile-h2">Yamila Rodriguez</h2> 
-            <h3 class="mobile-h3">IFBB Pro</h3>
             </div>
       </div>
     </div>
@@ -126,45 +167,30 @@
       </div>
     </div>
     
-    <div class="item active">
-      <img src="img/slider-4.jpg" class="slider-center" alt="Slider4">
+    <div class="item">
+      <img src="img/slider-4.jpg" class="slider-center" alt="Slider3">
       <div class="carousel-caption">
         Noel Fuller with IFBB Pro Travis Young
       </div>
     </div>
     
     
-  <!--End of Carousel Inner -->  
+    
+    
   </div>
   
   
   <!-- Controls -->
-  
-  <div>
 
-  <a class="left carousel-control" href="index.html#carousel" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <!--HIDE ARROW<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="index.html#carousel" role="button" data-slide="next">
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
     <!-- HIDE ARROW<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
     <span class="sr-only">Next</span>
   </a>
 </div>
-  
-    <!--End of Carousel-->  
-
-  </div>
-  
-         <div class="news">
-        <h1>Prep Begins NOW</h1>
-        <h2>Diet, nutrition, posing sessions, and all the guidance you'll need to get prepared for the 2016 season!</h2>
-        <div id="button"><a class="button" href="#">Start Now</a></div>
-        
-    </div>
-  
-  
-  
    
                
 
@@ -184,6 +210,12 @@
         End Hide Hero-->
       
         
+        <div class="news">
+        <h1>Prep Begins NOW</h1>
+        <h2>Diet, nutrition, posing sessions, and all the guidance you'll need to get prepared for the 2016 season!</h2>
+        <a class="button" href="#">Start Now</a>
+        
+    </div>
         
     <div class="photo-gallery">		
     
@@ -202,69 +234,48 @@
     
    </div>
    
+   <div class="gray-block"></div>
    
    <footer>
    
+   <!--Hide Footer Nav
    
-  
-   <div><a href="index.html"><img src="img/NoelFuller-logo.png" class="footer-logo" alt="logo"></a></div>
-   
-   <div class="footer-links">
+   <nav>
+   <div><a href="index.html"><img src="img/NoelFuller-Logo.svg" class="footer-logo" alt="logo" ></a></div>
         <ul>
         
         <li><a href="training.html">Training</a></li>
         <li><a href="champions.html">Champions</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="html/news.html">News &amp; Events</a></li>
+        <li><a href="news.html">News &amp Events</a></li>
         <li><a href="testimonials.html">Testimonials</a></li>
         <li><a href="training.html">Training Schedule</a></li>
         </ul>
+        <a href="https://www.facebook.com/noel.fuller"><img class="social" src="img/social-icon-fb.jpg" alt="facebook"/></a> 
+        <a href="#"><img class="social" src="img/social-icon-instagram.jpg" alt="instagram"/></a>
+        <a href="#"><img class="social" src="img/social-icon-twitter.jpg" alt="twitter"/></a>
+        <p>© 2015 Noel Fuller. All Rights Reserved.</p>
+        </nav>
         
-    </div>    
-        
-        <div id="social-footer">
-        <ul class="social-footer">
-        <li><a href="https://www.facebook.com/noel.fuller"><img src="img/social-icon-fb.jpg" alt="facebook"></a></li> 
-        <li><a href="img/index.html#"><img src="img/social-icon-instagram.jpg" alt="instagram"></a></li>
-        <li><a href="img/NoelFuller/html/index.html#"><img src="img/social-icon-twitter.jpg" alt="twitter"></a></li>
-        
-        
-        </ul>
-        </div>
-        
+           End Hide Footer-->
 
+        
+        
+       
+        
+        
+   
+   
+   
    
    </footer>
-   
-  
-   <div class="npc-oregon-logo"><a  href="http://www.npcoregon.com/" target="_blank">
-   
-   
-   <img src="img/logo-npc-news-oregon.png" alt="NPC Oregon Logo"/><span class="footer-copy">NPC Oregon</span></a></div>
-   
-   
-   <div class="md-logo"><a href="http://www.musculardevelopment.com/" target="_blank"><img src="img/logo-md.png" alt="Muscular Development Logo"><span class="footer-copy">Muscluar Development</span></a></div>
-   
-   <div class="npc-logo"><a href="http://npcnewsonline.com/" target="_blank"><img src="img/logo-npc-news-online.png" alt="NPC Logo"><span class="footer-copy">NPC News Online</span></a></div>
-   <div class="ifbb-logo"><a href="http://www.ifbbpro.com/" target="_blank"><img src="img/logo-ifbb.png" alt="IFBB Logo"><span class="footer-copy">IFBB Pro League</span></a></div>
         
-         <div class="copyright">
-        <p>© 2015 Noel Fuller. All Rights Reserved.</p>
-       
-        </div>
-   
-   <div class="gray-block-footer-2"></div>
-        
-   
-
- <script src="//code.jquery.com/jquery.js"></script>
+        <script src="//code.jquery.com/jquery.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/bootstrap.min.js"></script>
-
-
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -275,6 +286,5 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
-    
-
-</body></html>
+    </body>
+</html>
