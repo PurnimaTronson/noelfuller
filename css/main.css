@@ -1076,8 +1076,8 @@ span.line-4{
    
   .logo{
 	  
-	  width: 25%;
-	  padding: 2%;
+	  width: 20%;
+	  padding: 1.25%;
 	  margin: 0%;
 	
 	  
@@ -1134,7 +1134,6 @@ span.line-4{
 	
 nav{
 	display: inherit;
-	text-align: right;
 	padding-top: .5em;
 	
 	
@@ -1142,6 +1141,8 @@ nav{
 	
 ul{
 	display: inline;
+	
+	
 	}
 	
 
@@ -1177,7 +1178,8 @@ nav ul li a:visited {
 	
 nav li{
 	display: inline;
-	font-size: .85em;
+	
+	font-size: .89em;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	padding: 0em .5em;
@@ -1631,8 +1633,8 @@ height: 3%;
 nav{
 	float: right;
 	text-align: center;
-	width: 75%;
-	padding: .85em .5em;
+	width: 80%;
+	padding: .80em .5em;
 		
 
 	
@@ -1641,7 +1643,7 @@ nav{
 
 nav li{
 	
-		font-size: 1em;
+		font-size: 1.1em;
 		
 
 	
