@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=================TRAINING=====================*/
+
+html{
+	font-size: 1em;
+	
+	
+	}
+
+body{
+	
+	background-color: black;
+	background-image: url(../img/interior-background.jpg);
+	backround-repeat: no-repeat;
+	backgrouund-size: cover;
+	position: relative;
+	left: 0em;
+	top: 0em;
+	z-index: -555;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	
+	}
+
+
+#title-bar{
+	
+	background-image: url(../img/title-bar.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	left: 0em;
+	top: 0em;
+	text-align: center;
+
+	
+	
+	}
+	
+	
+	
+	
+.title-header{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	color: #c71111;
+	text-transform: uppercase;
+	padding-top: .75em;
+	
+	
+	
+	
+	}	
+	
+	
+	
+.title-sub-header{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	color: white;
+	padding: 0em;
+	padding-bottom: 1em;
+	
+	
+	
+	
+	}	
+	
+	
+	
+#content-area{
+	
+	background-color: white;
+	position: relative;
+	left: 0em;
+	top: 0em;
+	z-index: -2;
+	width: 80%;
+	height: 50em;
+	margin: 0em auto;
+	
+	
+	
+	}
+	
+	
+	#section-1, #section-2{
+		
+		width: 100%;
+		
+		}
+		
+	#section-2{
+		
+		clear: both;
+		
+		
+		}	
+	
+	
+	.section-1-image{
+		
+		width: 18%;
+		height: 120px;
+		float: left;
+		margin: 1em;
+		
+		background-color: gray;
+		
+		
+		
+		}
+		
+		
+	.section-1-copy{
+		
+		width: 72%;
+		float: right;
+		margin: 1em;
+		
+		
+		}	
+		
+	.section-2-copy{
+		
+		width: 70%;
+		float: right;
+		margin: 1.5em;
+		
+		}	
+		
+	h1, h2{
+		
+		font-family: 'Oswald', arial, verdana, sans-serif;
+		font-weight: 400;
+		font-size: 1.85em;
+		color: #666;
+		padding-bottom: 0em;
+		margin-bottom: 0em;
+		
+		
+		
+		
+		}	
+
+
+.bullets{
+	font-family: 'Oswald', arial, verdana, sans-serif;
+	color: #666;
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.8em;
+	margin-top: 0em;
+	padding-top: 0em;
+	margin-left: -2em;
+	
+	
+	}
