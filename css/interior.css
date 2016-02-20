@@ -15,30 +15,34 @@ body{
 	background-image: url(../img/interior-background.jpg);
 	backround-repeat: no-repeat;
 	backgrouund-size: cover;
-	position: relative;
-	left: 0em;
-	top: 0em;
-	z-index: -555;
+	
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 16px;
+	padding-top: 2em;
 	
 	}
+	
+
+
+	
 
 
 #title-bar{
 	
 	background-image: url(../img/title-bar.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-	left: 0em;
-	top: 0em;
+	width: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 100%;
 	text-align: center;
+	
 
 	
 	
 	}
+	
+
 	
 	
 	
@@ -47,9 +51,9 @@ body{
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.75em;
 	font-weight: 700;
-	color: #c71111;
+	color: #fff;
 	text-transform: uppercase;
-	padding-top: .75em;
+	padding-top: 1.25em;
 	
 	
 	
@@ -64,7 +68,6 @@ body{
 	font-size: 1.5em;
 	font-weight: 100;
 	color: white;
-	padding: 0em;
 	padding-bottom: 1em;
 	
 	
@@ -77,13 +80,10 @@ body{
 #content-area{
 	
 	background-color: white;
-	position: relative;
-	left: 0em;
-	top: 0em;
-	z-index: -2;
+
 	width: 80%;
-	height: 50em;
 	margin: 0em auto;
+	overflow: hidden;
 	
 	
 	
@@ -93,6 +93,7 @@ body{
 	#section-1, #section-2{
 		
 		width: 100%;
+		
 		
 		}
 		
@@ -162,3 +163,107 @@ body{
 	
 	
 	}
+	
+	
+	
+	@media only screen and (min-width: 641px) {
+		
+	body{
+		
+		
+		}	
+		
+  .address-top{
+  
+  font-size: 1.15em;
+  padding-top: .65em;
+  width: 55%;
+  float: left;
+  clear: right;
+  padding-left: 1em;
+	
+	
+	}
+	
+	
+	
+	
+		
+nav li{
+	display: inline;
+	
+	font-size: .8em;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	padding: 0em .5em;
+
+	clear: right;
+	
+	}
+		
+nav{
+	
+	text-align: left;
+	
+	}		
+		
+		
+	}
+	
+	@media only screen and (min-width: 768px){
+		.title-header{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 2.5em;
+	
+	
+	
+	
+	}	
+	
+	
+	
+.title-sub-header{
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	color: white;
+	padding-bottom: 1em;
+	
+	
+	
+	}
+		
+		
+		
+		
+		}
+		
+		
+	@media only screen and (min-width: 940px){
+		
+	.title-header{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 3em;
+	
+	
+	
+	
+	}	
+	
+	
+	
+
+		
+		
+		
+		
+		}		
