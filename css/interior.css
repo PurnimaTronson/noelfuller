@@ -11,10 +11,11 @@ html{
 
 body{
 	
-	background-color: black;
 	background-image: url(../img/interior-background.jpg);
-	backround-repeat: no-repeat;
-	backgrouund-size: cover;
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: 100%;
+	width: 100%;
 	
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-weight: 300;
@@ -103,7 +104,7 @@ body{
 	
 	background-color: white;
 
-	width: 80%;
+	width: 85%;
 	margin: 0em auto;
 	overflow: hidden;
 	
@@ -130,14 +131,14 @@ body{
 	
 	.section-1-image{
 		
-		width: 28%;
+		width: 27%;
 		float: left;
-		margin: 1em;
+		margin: 1.5em;
 		background-image: url(../img/training-1.jpg);
 		background-position: em 0em;
 		background-repeat: no-repeat;
 		background-size: 100%;
-		padding-top: 16em;
+		padding-top: 14em;
 		
 		
 		
@@ -146,21 +147,21 @@ body{
 		
 	.section-2-image{
 		
-		width: 28%;
+		width: 27%;
 		float: left;
-		margin: 1em;
+		margin: 1.5em;
 		background-image: url(../img/training-2.jpg);
 		background-position: em 0em;
 		background-repeat: no-repeat;
 		background-size: 100%;
-		padding-top: 16em;
+		padding-top: 14em;
 		
 		}	
 		
 		
 	.section-1-copy{
 		
-		width:62%;
+		width:60%;
 		float: right;
 		margin: .5em;
 		
@@ -170,7 +171,7 @@ body{
 		
 	.section-2-copy{
 		
-		width: 62%;
+		width: 60%;
 		float: right;
 		margin: .5em;
 		padding-right: 3em;
@@ -236,6 +237,8 @@ body{
 	width: 40%;
 	float: left;
 	padding-top: .5em;
+	margin-right: 1em;
+	
 	
 	
 	
@@ -247,10 +250,11 @@ body{
 	font-family: 'Oswald', arial, verdana, sans-serif;
 	color: #666;
 	font-weight: 300;
-	font-size: 1.25em;
+	font-size: 1.15em;
 	line-height: 1.7em;
 	margin-top: 0em;
 	padding-top: 0em;
+	
 	margin-left: -1em;
 	
 	
@@ -297,7 +301,7 @@ body{
 	font-size: 1.5em;
 	font-weight: 100;
 	color: white;
-	padding-bottom: em;
+	padding-bottom: 0em;
 	
 	
 	
@@ -325,6 +329,17 @@ body{
 		
 		}
 	
+	
+#content-area{
+	
+	
+	width: 100%;
+	
+	
+	
+	}	
+	
+	
 
 .footer-links{
 	
@@ -333,6 +348,7 @@ body{
 	
 	
 	}
+		
 	
 	
 #section-1, #section-2{
@@ -430,7 +446,9 @@ body{
 	.section-2-copy h3{
 		
 		text-align: center;
-		
+		width: 80%;
+		margin: 0em auto;
+		padding: 1em 0em;
 		
 		}	
 		
@@ -499,10 +517,10 @@ body{
 	
 	@media only screen and (min-width: 641px) {
 		
-	body{
+
 		
 		
-		}	
+		
 		
   .address-top{
   
