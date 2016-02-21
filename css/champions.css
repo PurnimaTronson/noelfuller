@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=================CHAMPIONS=====================*/
+
+
+
+.gallery-block{
+	
+width: 25%;
+margin: 1em 2em;
+float: left;
+clear: right;
+	
+	
+	}
+
+
+
+.gallery-image-1{
+	background-image:url(../img/photo-yami.jpg);
+	background-size: 140%;
+	background-repeat: no-repeat;
+	background-position: -3em -4em;
+	padding-top: 16em;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	}
+	
+	
+	
+.gallery-image-2{
+	background-image:url(../img/photo-kalli.jpg);
+	background-size: 170%;
+	background-repeat: no-repeat;
+	background-position: -5em 0em;
+	padding-top: 16em;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	}	
+	
+	
+	.gallery-image-3{
+	background-image:url(../img/photo-kathy.jpg);
+	background-size: 190%;
+	background-repeat: no-repeat;
+	background-position: -6em -8em;
+	padding-top: 16em;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	}
+	
+	.gallery-image-4{
+	background-image:url(../img/photo-physique.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: 0em  -4.5em;
+	padding-top: 16em;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	}	
+	
+	
+	.gallery-image-5{
+	background-image:url(../img/photo-sharon.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: -2.5em -6em;
+	padding-top: 16em;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	}
+	
+	.gallery-image-6{
+	background-image:url(../img/photo-stephanie.jpg);
+	background-size: 140%;
+	background-repeat: no-repeat;
+	background-position: -5em -5em;
+	padding-top: 16em;
+	width: 100%;
+	overflow: hidden;
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+.gallery-copy .name, .gallery-copy .p-1, .gallery-copy .p-2{
+	
+	
+	text-align: center;
+	margin: .25em;
+	color: #666;
+	
+	
+	}	
+	
+	
+h3{
+
+	font-weight: 100;
+	
+	}
+
+
+.p-1{
+	text-transform: uppercase;
+	font-size: 1.35em;
+	}
+
+
+.p-2{
+	
+	font-size: .75em;
+	text-transform: uppercase;
+	
+	
+	}	
