@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+.quote-block{
+	
+	overflow: hidden;
+	padding: 4em;
+	width: 100%;
+	
+	}
+	
+	
+	
+.quote-image{
+	
+	width: 25%;
+	height: 100px;
+	float: left;
+	margin-right: 1em;
+	
+	
+	}	
+	
+	
+.img-1{
+	
+	background-image: url(../img/tonia.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 25%;
+	
+	
+	
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+.quote{
+	
+	width: 68%;
+	float: left;
+	padding: 0em 2em;
+	
+	}	
+	
+.quote-name{
+	
+	float: right;
+	font-size: 1.25em;
+	line-height: 1em;
+	padding-top: 2em;
+	
+	}	
+	
+.quote .p-1{
+	
+	font-size: 1.25em;
+	
+	
+	}	
+	
+.border{
+		height: 1em;
+		width: 80%;
+		margin: 0em 10%;
+		border-bottom: 2px dotted silver;
+
+		
+		}
+	
+
+@media screen and (max-width: 560px) {
+	
+	
+	.quote-block{
+		
+		margin: 0em auto;
+		padding: 1em;
+		
+		}
+	
+	
+	.quote-image{
+		
+		float: none;
+		width: 100%;
+		
+		
+		}
+	
+	.quote{
+	
+	width: 100%;
+	float: none;
+	padding: 2em 2em;
+	
+	
+	}	
+	
+	}	

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news-block{
+	
+	padding: 3em;
+	overflow: hidden;
+
+	
+	}
+	
+	
+.news-section{
+	
+	padding-left: 2em;
+	
+	float: left;
+	width: 68%;
+	}	
+		
+.news-image{
+	
+	
+	width: 25%;
+	height: 150px;
+	background-image:url(../img/news-yami.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+	float: left;
+	
+	}	
+	
+	
+h3{
+	
+	
+color: #666;
+font-weight: 300;
+
+	
+	}
+
+
+
+h1{
+	
+color: #333;
+text-transform: uppercase;
+font-size: 1.5em;
+
+	}
+
+
+p{
+	
+	
+	font-color: #666;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 1em;
+	
+	}
+
+
+
+	
+.news-date{
+	
+	
+	}
+	
+.news-title{
+	
+	
+	}		
+	
+	
+.news-story{
+	
+	
+	
+	}	
+	
+	
+	
+	
+	
+	
+	
+
+@media screen and (max-width: 560px) {
+	
+	
+	}	

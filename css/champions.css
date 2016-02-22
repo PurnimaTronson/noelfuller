@@ -3,92 +3,83 @@
 
 /*=================CHAMPIONS=====================*/
 
-
+	
 
 .gallery-block{
 	
-width: 25%;
-margin: 1em 2em;
+width: 95%;
+margin: 0em 2.5%;
 float: left;
 clear: right;
+padding-bottom: 1em;
+padding-top: 2em;
+border-bottom: solid 1px silver;
+
+
 	
 	
 	}
 
+.gallery-image{
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 100%;
+	padding-bottom: 20%;
+	
+	
+}
 
-
-.gallery-image-1{
+.g-1{
 	background-image:url(../img/photo-yami.jpg);
-	background-size: 140%;
-	background-repeat: no-repeat;
-	background-position: -3em -4em;
-	padding-top: 16em;
-	width: 100%;
-	overflow: hidden;
-	
-	
+	background-size: 100%;
+	background-position: 0em 0em;
+
 	}
 	
-	
-	
-.gallery-image-2{
+.g-2{
 	background-image:url(../img/photo-kalli.jpg);
-	background-size: 170%;
-	background-repeat: no-repeat;
-	background-position: -5em 0em;
-	padding-top: 16em;
-	width: 100%;
-	overflow: hidden;
+	background-size: 120%;
+	background-position: 0em 0em;
+	
 	
 	
 	}	
 	
 	
-	.gallery-image-3{
+	.g-3{
 	background-image:url(../img/photo-kathy.jpg);
-	background-size: 190%;
-	background-repeat: no-repeat;
-	background-position: -6em -8em;
-	padding-top: 16em;
-	width: 100%;
-	overflow: hidden;
+	background-size: 100%;
+	background-position: 0em 0em;
+
+	
 	
 	
 	}
 	
-	.gallery-image-4{
+	.g-4{
 	background-image:url(../img/photo-physique.jpg);
-	background-size: 120%;
-	background-repeat: no-repeat;
-	background-position: 0em  -4.5em;
-	padding-top: 16em;
-	width: 100%;
-	overflow: hidden;
-	
+	background-size: 100%;
+	background-position: 0em 0em;
+
+		
 	
 	}	
 	
 	
-	.gallery-image-5{
+	.g-5{
 	background-image:url(../img/photo-sharon.jpg);
-	background-size: 120%;
-	background-repeat: no-repeat;
-	background-position: -2.5em -6em;
-	padding-top: 16em;
-	width: 100%;
-	overflow: hidden;
+	background-size: 100%;
+	background-position: 0em 0em;
+
 	
 	
 	}
 	
-	.gallery-image-6{
+	.g-6{
 	background-image:url(../img/photo-stephanie.jpg);
-	background-size: 140%;
-	background-repeat: no-repeat;
-	background-position: -5em -5em;
-	padding-top: 16em;
-	width: 100%;
-	overflow: hidden;
+	background-size: 100%;
+	background-position: 0em 0em;
 	
 	
 	}
@@ -112,21 +103,221 @@ clear: right;
 	
 h3{
 
-	font-weight: 100;
+	font-weight: 300;
+	font-size: 2.5em;
 	
 	}
 
 
 .p-1{
 	text-transform: uppercase;
-	font-size: 1.35em;
+	font-size: 1.85em;
+	
 	}
 
 
 .p-2{
 	
-	font-size: .75em;
+	font-size: 1.25em;
 	text-transform: uppercase;
 	
 	
 	}	
+	
+	
+
+	
+@media only screen and (min-width: 768px){
+	
+.gallery-block{
+	
+width: 45%;
+float: left;
+margin: 0em 2.5%;
+clear: right;
+	
+	
+	}
+
+.gallery-image{
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 16em;
+	
+	
+}
+
+.g-1{
+	background-image:url(../img/photo-yami.jpg);
+	background-size: 140%;background-position: -3em -4em;
+
+	}
+	
+.g-2{
+	background-image:url(../img/photo-kalli.jpg);
+	background-size: 170%;
+	background-position: -5em 0em;
+	
+	
+	
+	}	
+	
+	
+	.g-3{
+	background-image:url(../img/photo-kathy.jpg);
+	background-size: 190%;
+	background-position: -6em -8em;
+	
+	
+	
+	}
+	
+	.g-4{
+	background-image:url(../img/photo-physique.jpg);
+	background-size: 120%;
+	background-position: 0em  -4.5em;
+	padding-top: 16em;
+		
+	
+	}	
+	
+	
+	.g-5{
+	background-image:url(../img/photo-sharon.jpg);
+	background-size: 120%;
+	background-position: -2.5em -6em;
+
+	
+	
+	}
+	
+	.g-6{
+	background-image:url(../img/photo-stephanie.jpg);
+	background-size: 140%;
+	background-position: -5em -5em;
+	
+	
+	}
+	
+	h3{
+
+	font-weight: 300;
+	font-size: 2em;
+	
+	}
+
+
+.p-1{
+	text-transform: uppercase;
+	font-size: 1.25em;
+	
+	}
+
+
+.p-2{
+	
+	font-size: 1em;
+	text-transform: uppercase;
+	
+	
+	}	
+	
+	
+	
+	
+	
+	
+		}
+		
+		
+		
+	@media only screen and (min-width: 940px){
+		
+		
+		
+.container{
+	
+	width: 98%;
+	padding-top: 1em;
+	margin: auto;
+	
+	
+	
+	}	
+		
+		
+.gallery-block{
+	
+width: 28%;
+margin: 1em 1.25em;
+float: left;
+	
+	
+	}
+
+.gallery-image{
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 16em;
+	
+	
+}
+
+.g-1{
+	background-image:url(../img/photo-yami.jpg);
+	background-size: 100%;
+	background-position: 0em -3em;
+
+	}
+	
+.g-2{
+	background-image:url(../img/photo-kalli.jpg);
+	background-size: 120%;
+	background-position: 0em 0em;
+
+	
+	
+	
+	}	
+	
+	
+	.g-3{
+	background-image:url(../img/photo-kathy.jpg);
+	background-size: 100%;
+	background-position: 0em -3em;
+
+	
+	
+	
+	}
+	
+	.g-4{
+	background-image:url(../img/photo-physique.jpg);
+	background-size: 100%;
+	background-position: em -5em;
+		
+	
+	}	
+	
+	
+	.g-5{
+	background-image:url(../img/photo-sharon.jpg);
+	background-size: 120%;
+	background-position: -3em -6em;
+
+	
+	
+	}
+	
+	.g-6{
+	background-image:url(../img/photo-stephanie.jpg);
+	background-size: 110%;
+	background-position: -2em -5em;
+	
+	
+	}
+		
+		
+		}
