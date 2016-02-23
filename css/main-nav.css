@@ -1,4 +1,3 @@
-@charset "utf-8";
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -100,6 +99,7 @@ textarea {
 
 body{
 	background-color: black;
+	padding-top: 11%;
 	
 	
 	}
@@ -107,9 +107,8 @@ body{
 header{
 	
 	background-image: url(../img/nf-header-bg.jpg);
-	background-size: cover;
+	background-size: 110%;
 	background-repeat: no-repeat;
-	background-position: 50% 20%;
 	width: 100%;
 	
 	
@@ -129,7 +128,7 @@ header{
 		
 .logo img{
 	
-	width: 55%;
+	width: 35%;
 	
 	
 	}	
@@ -137,17 +136,20 @@ header{
 nav{
 	
 	display: inherit;
+	background: #000;
+	clear: both;
 	overflow: hidden;
 	
 	}	
 
-
+.navbar-fixed-top{
+	}
 
 
 
 .navbar-brand img{
 	
-	width:150%;
+	width:100%;
 
 
 	
@@ -1008,15 +1010,14 @@ span.line-4{
 @media only screen and (max-width: 560px) {
 
 
+
+
 #hero-copy{
 	
 	display: none;
 	
 	
 	}
-	
-	
-/*Carousel Caption*/	
 	
 .mobile-hero{
 	
@@ -1061,154 +1062,6 @@ span.line-4{
 	
 
 }
-
-
-@media only screen and (max-width: 641px){
-	
-	
-header{
-	
-	background-image:url(../img/interior-background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 0px -45px;
-	width: 100%;
-	
-	
-	
-	
-	}	
-		
-	
-  .logo{
-  
-  clear: both;
-  overflow: hidden;
-  float: left;
-  width: 100%;
-  text-align: center;
-  padding-top: .5em;
- 
-		}
-		
-		
-		
-.logo img{
-	
-	width: 40%;
-	
-	
-	}
-	
-	
-	.address-top{
-		
-		font-size: 1.25em;
-		
-		
-		}
-		
-		
-	nav{
-		
-		background-color: #000;
-		background-image: url(../img/news-bg.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: -100px  0px;
-	
-		
-		
-		}	
-	
-	
-	nav ul li a{
-		
-		width: 100%;
-		
-		}
-	
-	nav ul li{
-		
-		
-		margin-left: -5%;
-		width: 100%;
-		
-		
-		
-		}
-	
-	
-
-	
-	
-	nav li{
-	
-	font-size: 1.35em;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	padding: .25em 0em;
-	border-bottom: 1px dotted #3F3D3D;
-	text-align: center;
-	width: 100%;
-	
-
-	
-	}
-	
-	
-	nav ul li a:link{
-		
-		font-weight: 700;
-	
-		
-		
-		
-		}
-	
-	nav ul li a:hover {
-    color: #6dcff6;
-	
-    font-weight: 700;
-    text-decoration: none;
-    width: 100%;
-    padding: 0% 0%;
-}
-	
-
-nav ul li a:visited {
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
-    width: 100%;
-    padding: 0% 0%;
-}
-	
-	
-	nav ul li a:active {
-    color: #6dcff6;
-    font-weight: 700;
-    text-decoration: none;
-    width: 100%;
-    padding: 0% 0%;
-}
-
-
-
-nav ul li a{
-	
-	color: blue;
-	
-	}	
-
-	
-	
-	
-	}
-
-
-
-
    
 @media only screen and (min-width: 641px) {
     /* Style adjustments for viewports that meet the condition */   
@@ -1220,6 +1073,7 @@ nav ul li a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
+	
 	overflow: hidden;
 	
 		
@@ -1332,7 +1186,7 @@ nav ul li a:visited {
 nav li{
 	display: inline;
 	
-	font-size: .95em;
+	font-size: .89em;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	padding: 0em .5em;
@@ -1657,7 +1511,6 @@ div#social-footer{
 	
 	body{
 	background-color: black;
-	padding-top: .125em;
 	
 	
 	}
@@ -1796,7 +1649,7 @@ nav{
 
 nav li{
 	
-		font-size: 1.08em;
+		font-size: .85em;
 		
 
 	
@@ -2355,7 +2208,6 @@ div#social-footer{
 
 body{
 	background-color: black;
-	padding-top: .1em;	
 	
 	}
 	
@@ -2363,7 +2215,7 @@ body{
 
 
 .logo{
-	  
+	  class="navbar-fixed-top"
 	  width: 20%;
 	  padding: .8em;
 	  margin: 0%;
@@ -3001,18 +2853,7 @@ div#social-footer{
 		
 	
 	
-@media screen and (min-width: 1000px){
 	
-	
-	nav{
-		
-		font-size: 1.35em;
-		
-		}
-	
-	
-}
-		
 	
 
 
@@ -3100,5 +2941,3 @@ div#social-footer{
         page-break-after: avoid;
     }
 }
-/* CSS Document */
-

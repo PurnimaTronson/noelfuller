@@ -1015,9 +1015,6 @@ span.line-4{
 	
 	}
 	
-	
-/*Carousel Caption*/	
-	
 .mobile-hero{
 	
 	
@@ -1122,26 +1119,6 @@ header{
 		}	
 	
 	
-	nav ul li a{
-		
-		width: 100%;
-		
-		}
-	
-	nav ul li{
-		
-		
-		margin-left: -5%;
-		width: 100%;
-		
-		
-		
-		}
-	
-	
-
-	
-	
 	nav li{
 	
 	font-size: 1.35em;
@@ -1168,8 +1145,7 @@ header{
 	
 	nav ul li a:hover {
     color: #6dcff6;
-	
-    font-weight: 700;
+    font-weight: 300;
     text-decoration: none;
     width: 100%;
     padding: 0% 0%;
@@ -1332,7 +1308,7 @@ nav ul li a:visited {
 nav li{
 	display: inline;
 	
-	font-size: .95em;
+	font-size: .89em;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	padding: 0em .5em;
@@ -1796,7 +1772,7 @@ nav{
 
 nav li{
 	
-		font-size: 1.08em;
+		font-size: .85em;
 		
 
 	
@@ -3001,18 +2977,7 @@ div#social-footer{
 		
 	
 	
-@media screen and (min-width: 1000px){
 	
-	
-	nav{
-		
-		font-size: 1.35em;
-		
-		}
-	
-	
-}
-		
 	
 
 
