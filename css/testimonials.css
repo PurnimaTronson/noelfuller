@@ -16,7 +16,7 @@
 	width: 25%;
 	height: 100px;
 	float: left;
-	margin-right: 1em;
+	margin-right: .5em;
 	
 	
 	}	
@@ -89,6 +89,8 @@
 		
 		float: none;
 		width: 100%;
+		height: 30em;
+
 		
 		
 		}

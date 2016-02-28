@@ -270,6 +270,16 @@ body{
 	
 	}	
 	
+	
+	
+@media only screen and (max-width: 560px){
+	
+
+	
+	
+
+	
+	}	
 
 @media only screen and (max-width: 641px) {	
 
@@ -289,7 +299,7 @@ body{
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
-	padding-top: 13.5em;
+	padding-top: 4em;
 	
 	
 	
@@ -536,42 +546,30 @@ body{
 	}
 	
 	
-	
-	
-		
-nav li{
-	display: inline;
-	
-	font-size: .8em;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	padding: 0em .5em;
 
-	clear: right;
+	
+
+
+#title-bar h2{
+	
+	padding: .35em 0em .95em 0em;
+	margin: 0em;
+	
 	
 	}
-		
-nav{
 	
-	text-align: left;
 	
-	}		
-		
-		
-			.footer-links ul a {
-		
-		font-weight: 100;
-		
-		}
-		
-		
-		
-		.footer-links ul {
-		
-		font-size: .85em;
-		
-		}
 	
+	
+	
+	
+	
+	
+	
+	
+
+		
+
 		
 		
 		
@@ -584,7 +582,7 @@ nav{
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
-	padding-top: 2.5em;
+	padding-top: 1.8em;
 	
 	
 	
@@ -604,6 +602,16 @@ nav{
 	
 	
 	}
+	
+	#title-bar h2{
+	
+	padding: .35em 0em .95em 0em;
+	margin: 0em;
+	
+	
+	}
+	
+	
 		
 		
 		.footer-links ul a {
@@ -632,7 +640,7 @@ nav{
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
-	padding-top: 4em;
+	padding-top: 2em;
 	
 	
 	

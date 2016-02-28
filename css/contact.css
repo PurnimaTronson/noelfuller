@@ -12,7 +12,31 @@
 	
 	}
 
+input, textarea{
+	
+	width: 100%;
 
+	}
+	
+	
+
+	
+.form-button{
+	
+	width: 22%;
+	font-size: 1.25em;
+	font-weight: 400;
+	background-color: gray;
+	padding: .55em;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #DCDADA;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px #E1E1E1;
+	
+	
+	
+	}	
 
 .contact-block{
 	
@@ -38,14 +62,14 @@
 .contact-title{
 	
 color: #666;
-font-size: 1.5em;
+font-size: 1.15em;
 padding-bottom: .5em;
 
 
 	}
 
 
-.contact-info p{
+.contact-info p, .contact-info a{
 	
 	
 	font-color: #666;
@@ -53,6 +77,9 @@ padding-bottom: .5em;
 	line-height: .85em;
 	
 	}
+	
+	
+	
 
 .bold{
 	
@@ -128,9 +155,9 @@ padding-bottom: .5em;
 .contact-title{
 	
 color: #666;
-font-size: 1.75em;
+font-size: 1.15em;
 padding-bottom: .5em;
-text-align: center;
+text-align: left;
 
 
 	}
@@ -140,9 +167,9 @@ text-align: center;
 	
 	
 	font-color: #666;
-	font-size: 1.5em;
+	font-size: 1.15em;
 	line-height: 1.25em;
-	text-align: center;
+	text-align: left;
 	
 	}
 

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+html{
+	font-size: 1em;
+	
+	
+	
+	}
+	
+	
+body{
+	
+	font-family: 'Oswald', arial, verdana, sans-serif;
+	margin: 0em;
+	padding: 0em;
+	
+	}	
+
+
+.logo{
+	
+	background-color: gray;
+	width: 20%;
+	height: 130px;
+	float: left;
+	overflow: hidden;
+	
+	
+	}
+	
+	
+.social-block{
+	list-style-type: none;
+	width: 80%;
+	float: right;
+	overflow: hidden;
+	
+
+	
+	}	
+	
+	
+.social-block ul li{
+	
+		display: inline;
+		padding: .5em;
+		float: left;
+	
+	
+	}	
+	
+	
+.social{
+	
+	background-color: silver;
+	padding: .25em;
+	
+	}	
+	
+	
+	.address{
+		
+		padding-left: 15em;
+		font-weight: 300;
+		
+		
+		}
+	
+	
+	
+nav{
+	text-decoration: none;
+	list-style-type: none; 
+	width: 80%;
+	float: right;
+	
+	
+	
+	
+	
+	}
+	
+	
+nav li{
+	
+	display: inline;
+	padding: 2.15em;
+	font-size: 1.1em;
+	
+	
+	}	
+	
+	
+	nav li a:link{
+	
+	display: inline;
+	padding: 2.15em;
+	font-size: 1.1em;
+	
+	
+	}	
+	
+	nav li a:active{
+	
+	
+	}	
+	
+	
+	nav li a:hover{
+	
+	color: blue;
+	
+	}	
+	
+	
+	nav li a:visited{
+	
+	color: silver;
+	
+	}
