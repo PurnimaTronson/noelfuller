@@ -14,7 +14,8 @@
 
 input, textarea{
 	
-	width: 100%;
+	width: 70%;
+	margin-bottom: .75em;
 
 	}
 	
@@ -23,11 +24,11 @@ input, textarea{
 	
 .form-button{
 	
-	width: 22%;
-	font-size: 1.25em;
+	width: 40%;
+	font-size: 1.15em;
 	font-weight: 400;
 	background-color: gray;
-	padding: .55em;
+	padding: .25em;
 	color: #fff;
 	text-align: center;
 	border: 1px solid #DCDADA;
@@ -36,7 +37,11 @@ input, textarea{
 	
 	
 	
-	}	
+	}
+	
+	
+	
+		
 
 .contact-block{
 	
@@ -62,7 +67,7 @@ input, textarea{
 .contact-title{
 	
 color: #666;
-font-size: 1.15em;
+font-size: 1.25em;
 padding-bottom: .5em;
 
 
@@ -77,8 +82,33 @@ padding-bottom: .5em;
 	line-height: .85em;
 	
 	}
+
+
+
+a.mailto-body:hover{
 	
 	
+	color: #6dcff6;
+	text-decoration: none;
+	
+	}
+	
+	
+a.mailto-body{
+	
+	
+	color: #666;
+	text-decoration: none;
+	
+	}
+	
+	
+.contact-p{
+	
+	font-size: 1.65em;
+	
+	
+	}	
 	
 
 .bold{
@@ -106,14 +136,47 @@ padding-bottom: .5em;
 	}	
 	
 	
-	@media screen and (max-width: 830px){
+	
+	
+	
+@media screen and (min-width: 560px){
+	
+	
+	
+.form-button{
+	
+	width: 10%;
+	
+	}
+	
+	
+	
+	
+	
+	
+	}	
+	
+@media screen and (max-width: 641px){
+		
+		
+		input, textarea{
+	
+	width: 100%;
+	margin-bottom: .75em;
+
+	}
+
+		
+		}
+	
+@media screen and (max-width: 830px){
 		
 		
 	.contact-section{
 	
 	padding: .5em .5em;
 	float: left;
-	width: 50%;
+	width: 100%;
 	}
 	
 	.contact-title{
@@ -139,47 +202,3 @@ padding-bottom: .5em;
 		
 		
 		}
-	
-@media screen and (max-width: 641px){
-		
-		
-	.contact-section{
-	
-	padding: .5em .5em;
-	float: left;
-	width: 50%;
-	}	
-		
-
-
-.contact-title{
-	
-color: #666;
-font-size: 1.15em;
-padding-bottom: .5em;
-text-align: left;
-
-
-	}
-
-
-.contact-info p{
-	
-	
-	font-color: #666;
-	font-size: 1.15em;
-	line-height: 1.25em;
-	text-align: left;
-	
-	}
-
-.bold{
-	
-	font-weight: 700;
-	
-	}
-	
-		
-		
-		}
-	

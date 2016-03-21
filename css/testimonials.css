@@ -4,7 +4,7 @@
 .quote-block{
 	
 	overflow: hidden;
-	padding: 4em;
+	padding: 2em;
 	width: 100%;
 	
 	}
@@ -13,8 +13,8 @@
 	
 .quote-image{
 	
-	width: 25%;
-	height: 100px;
+	width: 100%;
+	height: 50%;
 	float: left;
 	margin-right: .5em;
 	
@@ -27,7 +27,7 @@
 	background-image: url(../img/tonia.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding-top: 25%;
+	padding-top: 50%;
 	
 	
 	
@@ -42,8 +42,7 @@
 	
 .quote{
 	
-	width: 68%;
-	float: left;
+	width: 100%;
 	padding: 0em 2em;
 	
 	}	
@@ -60,9 +59,21 @@
 .quote .p-1{
 	
 	font-size: 1.25em;
-	
+	padding: 1em;
+	clear: both;
 	
 	}	
+	
+	
+	.quote .p-2{
+	
+	font-size: 1.25em;
+	padding: 1em;
+	clear: both;
+	
+	}	
+		
+	
 	
 .border{
 		height: 1em;
@@ -74,34 +85,44 @@
 		}
 	
 
-@media screen and (max-width: 560px) {
-	
-	
-	.quote-block{
-		
-		margin: 0em auto;
-		padding: 1em;
-		
-		}
-	
-	
-	.quote-image{
-		
-		float: none;
-		width: 100%;
-		height: 30em;
 
-		
-		
-		}
+
+
+@media screen and (min-width: 641px){
 	
-	.quote{
+	
+ .p-1 .no-photo{
+	
+	text-align: left;
+	
+	float: none;
+	
+	
+	
+	}
+	
+.quote-image{
 	
 	width: 100%;
-	float: none;
-	padding: 2em 2em;
+	height: 100px;
+	float: left;
+	margin-right: .5em;
 	
 	
 	}	
+		
+	
+	
+	
+.quote .p-2{
+	
+	font-size: 1.25em;
+	padding: 1em;
+	clear: both;
 	
 	}	
+		
+	
+	
+	
+}

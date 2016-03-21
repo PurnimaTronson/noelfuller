@@ -1,95 +1,50 @@
 @charset "utf-8";
 /* CSS Document */
 
-.news-block{
-	
-	padding: 3em;
-	overflow: hidden;
 
-	
-	}
-	
-	
-.news-section{
-	
-	padding-left: 2em;
-	
-	float: left;
-	width: 68%;
-	}	
-		
+
 .news-image{
 	
-	
-	width: 25%;
-	height: 150px;
-	background-image:url(../img/news-yami.jpg);
+	background-image:url(../img/yami-yellow.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin-top: 1em;
-	float: left;
-	
-	}	
+	padding-top: 70%;
 	
 	
-h3{
-	
-	
-color: #666;
-font-weight: 300;
-
 	
 	}
 
 
-
-h1{
+.news-block{
 	
-color: #333;
-text-transform: uppercase;
-font-size: 1.5em;
-
-	}
-
-
-p{
+	margin: 2.56em;
 	
 	
-	font-color: #666;
-	font-size: 1em;
-	line-height: 1.5em;
-	padding-top: 1em;
 	
 	}
-
-
-
+	
 	
 .news-date{
 	
+	color: #666;
+	font-weight: 100;
 	
-	}
+	}	
 	
 .news-title{
 	
+	text-transform: uppercase;
+	width: 100%;
+	padding: 0em 0em .5em 0em;
+	color: #333;
 	
-	}		
 	
+	}	
 	
 .news-story{
 	
 	
-	
-	}	
-	
-	
-	
-	
-	
-	
-	
-
-@media screen and (max-width: 560px) {
+	font-size: 1.25em;
 	
 	
 	}	

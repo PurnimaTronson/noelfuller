@@ -20,7 +20,7 @@ body{
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 16px;
-	padding-top: 2em;
+	padding-top: 1em;
 	
 	}
 	
@@ -44,12 +44,11 @@ body{
 
 #title-bar{
 	
-	background-image: url(../img/title-bar.png);
 	width: 100%;
-	background-position: center;
-	background-repeat: repeat-y;
-	background-size: 100%;
 	text-align: center;
+	clear: both;
+	overflow: hidden;
+	margin-top: 1em;
 	
 
 	
@@ -67,7 +66,7 @@ body{
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
-	padding-top: 1.25em;
+	padding-top: 2em;
 	
 	
 	
@@ -113,152 +112,7 @@ body{
 	}
 	
 	
-	#section-1, #section-2{
-		
-		width: 100%;
-		
-		
-		}
-		
-	#section-2{
-		
-		clear: both;
-	
-		
-		
-		}	
-	
-	
-	.section-1-image{
-		
-		width: 27%;
-		float: left;
-		margin: 1.5em;
-		background-image: url(../img/training-1.jpg);
-		background-position: em 0em;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		padding-top: 14em;
-		
-		
-		
-		
-		}
-		
-	.section-2-image{
-		
-		width: 27%;
-		float: left;
-		margin: 1.5em;
-		background-image: url(../img/training-2.jpg);
-		background-position: em 0em;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		padding-top: 14em;
-		
-		}	
-		
-		
-	.section-1-copy{
-		
-		width:60%;
-		float: right;
-		margin: .5em;
-		
-		
-		
-		}	
-		
-	.section-2-copy{
-		
-		width: 60%;
-		float: right;
-		margin: .5em;
-		padding-right: 3em;
-		
-		}	
-		
-		
-	.section-2-copy h3{
-		
-		
-		color: #666;
-		font-size: 1.25em;
-		
-		
-		
-		}	
-		
-		
-		
-.section-2-copy p{
-		
-		
-		color: #666;
-		font-size: 1.15em;
-		line-height: 1.5em;
-		margin-bottom: 5em;
-		
-		
-		
-		}	
-		
-.section-2-copy .p-1{
-	
-	margin-bottom: 0em;
-	
-	
-	
-	}			
-		
-	.section-2-copy h1, .section-1-copy h1{
-		
-		margin: em;
-		padding: 0em;
-		}	
-		
-	h1, h2{
-		
-		font-family: 'Oswald', arial, verdana, sans-serif;
-		font-weight: 400;
-		font-size: 1.85em;
-		color: #666;
-		padding-bottom: 0em;
-		margin-bottom: 0em;
-		
-		
-		
-		
-		}	
 
-.bullet-section{
-	
-	
-	width: 40%;
-	float: left;
-	padding-top: .5em;
-	margin-right: 1em;
-	
-	
-	
-	
-	}
-
-
-
-.bullets{
-	font-family: 'Oswald', arial, verdana, sans-serif;
-	color: #666;
-	font-weight: 300;
-	font-size: 1.15em;
-	line-height: 1.7em;
-	margin-top: 0em;
-	padding-top: 0em;
-	
-	margin-left: -1em;
-	
-	
-	}
 	
 	
 .resources{
@@ -280,241 +134,14 @@ body{
 
 	
 	}	
+	
+	
+	
+
 
 @media only screen and (max-width: 641px) {	
 
 
-
-#title-bar{
-	
-	background-size: 100%;
-	background-color: #000;
-	
-	}
-
-.title-header{
-	background-image: none;
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.75em;
-	font-weight: 700;
-	color: #fff;
-	text-transform: uppercase;
-	padding-top: 4em;
-	
-	
-	
-	
-	}
-	
-	.title-sub-header{
-	
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.5em;
-	font-weight: 100;
-	color: white;
-	padding-bottom: 0em;
-	
-	
-	
-	
-	}	
-	
-	
-
-
-#title-bar h2{
-	
-	padding: .35em 0em .95em 0em;
-	margin: 0em;
-	
-	
-	}
-	
-	
-	
-	.button{
-		
-		color: black;
-		
-		
-		
-		}
-	
-	
-#content-area{
-	
-	
-	width: 100%;
-	
-	
-	
-	}	
-	
-	
-
-.footer-links{
-	
-	
-	display: none;
-	
-	
-	}
-		
-	
-	
-#section-1, #section-2{
-	
-		margin: 0em;
-		padding: 0em;
-		
-	
-	
-	
-	}	
-	
-	.section-1-image{
-		
-		width: 90%;
-		background-image: url(../img/training-1.jpg);
-		background-position: 0em -3em;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		padding-top: 30em;
-		margin: 0em 5%;
-		
-		
-		
-		
-		
-		}
-		
-		
-		
-	.section-2-image{
-		
-		width: 90%;
-		
-		background-image: url(../img/training-2.jpg);
-		background-position: em 0em;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		padding-top: 30em;
-		margin: 0em 5%;
-		
-		}	
-		
-		
-	.section-1-copy{
-		
-		width: 100%;
-		float: none;
-	
-		
-		
-		}	
-		
-	.section-2-copy{
-		
-		width: 100%;
-		float: none;
-		
-		}	
-		
-		
-	.section-2-copy h3{
-		
-		
-		color: #666;
-		font-size: 1.25em;
-		margin: 0em;
-		padding: 0em;		
-		
-		}	
-		
-		
-		
-.section-2-copy p{
-		
-		
-		color: #666;
-		font-size: 1.15em;
-		line-height: 1.5em;
-		margin: 0em 10%;
-		margin-bottom: 5em;
-		text-align: left;
-		
-		
-		
-		
-		}		
-		
-	.section-2-copy h1, .section-1-copy h1{
-		
-		margin: em;
-		padding: .25em;
-		}	
-		
-	.section-2-copy h3{
-		
-		text-align: center;
-		width: 80%;
-		margin: 0em auto;
-		padding: 1em 0em;
-		
-		}	
-		
-	.traditional, .online{
-		
-		clear: both;
-		margin: 0em;
-		padding: 0em;
-		overflow: hidden;
-		text-align: center;
-		font-size: 1.25em;
-		float: none;
-		}	
-		
-	h1, h2{
-		
-		font-family: 'Oswald', arial, verdana, sans-serif;
-		font-weight: 400;
-		font-size: 1.75em;
-		color: #666;
-		padding-bottom: 0em;
-		margin-bottom: 0em;
-		
-		
-		
-		
-		}	
-
-.bullet-section{
-	
-	
-	width: 40%;
-	float: left;
-	padding-top: .5em;
-	margin-left: 1.25em;
-	
-	
-	
-	}
-
-
-
-.bullets{
-	font-family: 'Oswald', arial, verdana, sans-serif;
-	color: #666;
-	font-weight: 300;
-	font-size: 1.25em;
-	line-height: 1.7em;
-	margin-top: 0em;
-	padding-top: 0em;
-	
-	
-	}
-	
-	
 	
 	
 	
@@ -545,7 +172,22 @@ body{
 	
 	}
 	
+#title-bar{
 	
+	background-image: url(../img/title-bar.png);
+	width: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	text-align: center;
+	overflow: hidden;
+	clear: both;
+	margin-top: .5em;
+	
+
+	
+	
+	}	
 
 	
 
@@ -560,12 +202,18 @@ body{
 	
 	
 	
+	.title-header{
+
+	padding-top: 1.5em;
 	
 	
 	
 	
+	}	
 	
 	
+	
+
 	
 
 		
@@ -640,7 +288,7 @@ body{
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
-	padding-top: 2em;
+	padding-top: 2.5em;
 	
 	
 	
@@ -659,5 +307,27 @@ body{
 		
 		
 		}	
+		
+		
+	@media only screen and (min-width: 1200px){
+		
+	.title-header{
+
+	padding-top: 3em;
+	
+	
+	
+	
+	}	
+	
+	
+
+
+		
+		
+		
+		
+		}	
+		
 		
 			
